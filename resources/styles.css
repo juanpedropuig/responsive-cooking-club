@@ -84,9 +84,12 @@ html {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
   grid-area: 5 / 1 / 6 / span 5;
+  text-align: right;
 }
 
-h1 {
+.banner h1 {
   font-family: 'Nerko One', roboto, sans-serif;
+  padding-right: 0.8rem;
 }
 
+/* Quote section */
