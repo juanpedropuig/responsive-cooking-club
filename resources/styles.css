@@ -93,3 +93,28 @@ html {
 }
 
 /* Quote section */
+.description {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template: 2fr 3fr 2fr / repeat(4, 1fr);
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+
+.description img {
+  width: 4rem;
+  height: auto;
+  grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.quote {
+  grid-area: 2 / 2 / span 1 / span 3;
+  padding-right: 3rem;
+}
+
+.author {
+  color: darkgrey;
+  text-align: right;
+  padding-right: 1.5rem;
+}
