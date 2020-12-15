@@ -117,4 +117,49 @@ html {
   color: darkgrey;
   text-align: right;
   padding-right: 1.5rem;
+  font-style: italic;
+}
+
+/* Food section */
+.foods {
+  text-align: left;
+  margin-top: 2.5rem;
+}
+
+.foods h2 {
+  padding-left: 2rem;
+}
+
+.food-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.food {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.pastry {
+  padding-left: 0.5rem;
+}
+
+.dessert {
+  padding-right: 1.5rem;
+}
+
+.event {
+  margin-left: 1rem;
+}
+
+.food img {
+  width: 10rem;
+  height: auto;
+}
+
+.food p {
+  font-weight: 300;
 }
